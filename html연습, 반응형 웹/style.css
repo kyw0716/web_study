@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    min-width: 1200px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body::after {
+    height: 100vh;
+    width: 100%;
+    content: '';
+    background-image: url("./imgs/인하대학교.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(3px);
+}
+
+@media screen and (max-width: 1200px) {
+    .인하대학교 {
+        display: none;
+    }
+}
+
+nav {
+    min-width: 768px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.nav_active {
+    background-color: rgb(19, 168, 194);
+}
+
+.fnt {
+    color: rgb(235, 232, 232);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_item {
+    font-size: 40px;
+    color: rgb(233, 223, 223);
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.인하대학교 {
+    font-size: 20px;   
+}
+
+.menu {
+    display: flex;
+    margin-right: 100px;
+}
+
+.menu_item {
+    list-style: none;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.특수문자 {
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.login_box {
+    border: solid rgb(54, 54, 255);
+    background-color: rgb(72, 72, 255);
+    font-weight: bold;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.login_page {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.login_part_box {
+    margin-top: 10%;
+    border: 2px solid black;
+    width: 50%;
+    height: 60%;
+    background-color: white;
+}
+
+.login_text {
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login_part {
+    border: 2px solid black;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 50px;
+}
+
+.exit_icon {
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: rgb(146, 146, 146);
+}
+
+.active {
+    display: none;
+}
+
+main {
+    margin-top: 754.6px;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+h1 {
+    padding-top: 17%;
+    padding-left: 5%;
+    color: white;
+}
+
+h2 {
+    padding-left: 5%;
+    color: white;
+    font-size: 30px;
+}
+
+.head_word {
+    font-size: 90px;
+}
+
+.head_under_word {
+    font-size: 40px;
+}
