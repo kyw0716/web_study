@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open Google.html",
-            "file": "c:\\Users\\김영우\\OneDrive\\바탕 화면\\python\\html 연습2\\Google.html"
+            "file": "c:\\Users\\김영우\\OneDrive\\바탕 화면\\웹공부\\html 연습2\\Google.html"
         }
     ]
 }

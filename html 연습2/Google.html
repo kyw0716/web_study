@@ -4,16 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./index_UI.js"></script>
     <title>김영우 짭gle 클론코딩</title>
 </head>
 <body>
     <header>
         <div class="menu"><a href="https://www.google.com/intl/ko/gmail/about/#">Gmail</a></div>
         <div class="menu"><a href="https://www.google.co.kr/imghp?hl=ko&tab=wi&ogbl">이미지</a></div>
-        <div class="menu menu_overflow">메뉴</div>
-        <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dko&followup=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dko&hl=ko&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
-            <div class="menu_btn">로그인</div>
-        </a>
+        <div class="menu menu_overflow_btn"><a href="#"><i class="fas fa-bars"></i></a></div>
+        <div class="menu_btn">로그인</div>
+        <div class="login_page_overflow active">
+            <div class="login_page_container">
+                <div class="login_page_logo_part">
+                    <p class="login_page_logo_color_blue">G</p>
+                    <p class="login_page_logo_color_red">o</p>
+                    <p class="login_page_logo_color_yellow">o</p>
+                    <p class="login_page_logo_color_blue">g</p>
+                    <p class="login_page_logo_color_green">l</p>
+                    <p class="login_page_logo_color_red">e</p>
+                </div>
+                <div class="login_page_login_part">
+                    <div class="login_page_login_word">로그인</div>
+                    <div class="login_page_account">Goole 계정 사용</div>
+                    <input class="login_page_search" type="text" placeholder="이메일 또는 휴대전화">
+                    <div class="login_page_email">이메일을 잊으셨나요?</div>
+                    <div class="login_page_secret">
+                        내 컴퓨터가 아닌가요? 게스트 모드를 사용하여 비공개
+                    </div>
+                    <div class="login_page_inside_box">
+                        <div class="login_page_secret">로 로그인 하세요.</div> 
+                        <a class="login_page_secret space" href="#">자세히 알아보기</a>
+                    </div>
+                    <div class="login_page_container_footer_part">
+                        <a id="account" href="#">계정 만들기</a>
+                        <div class="login_page_next_box">다음</div>
+                    </div>
+                </div>
+            </div>
+            <div class="login_page_container_bottom">
+                <select class="login_page_lang_select">
+                    <option value="한국어">한국어</option>
+                    <option value="영어">영어</option>
+                    <option value="독일어">독일어</option>
+                </select>
+                <div class="login_page_footer_word_container">
+                    <p class="login_page_footer_word">도움말</p>
+                    <p class="login_page_footer_word">개인정보처리방침</p>
+                    <p class="login_page_footer_word">약관</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu_overflow active">
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+            <div class="menu_overflow_box">메뉴</div>
+
+        </div>
     </header>
     <main>
         <div class="main_logo">
@@ -25,11 +91,11 @@
             <div class="main_word_red">e</div>
         </div>
         <div class="search_bar">
-            <img class="search_bar_img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFTirbqfHgHPYOJiP6qU3A0HuN85I_hNwbLw&usqp=CAU">
-            <input>
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="검색어를 입력하세요">
             <div class="search_bar_div">
-                <img class="search_bar_img2" src="https://i.pinimg.com/originals/10/8e/34/108e340f4329e8b9c332bb07a7282f27.png">
-                <img class="search_bar_img3" src="data:image/jpeg;base64,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">
+                <i class="fas fa-keyboard"></i>
+                <i class="fas fa-microphone"></i>
             </div>
         </div>
         <div class="under_search_bar">
