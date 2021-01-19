@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\김영우\\OneDrive\\바탕 화면\\웹공부\\html연습, 반응형 웹\\index.html"
+            "file": "c:\\Users\\김영우\\OneDrive\\바탕 화면\\python\\html 연습\\index.html"
         }
     ]
 }

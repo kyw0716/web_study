@@ -5,6 +5,12 @@ $(function(){
 });
 
 $(function(){
+    $('main').on('click', function(){
+        $('.menu_overflow').addClass('active');
+    });
+});
+
+$(function(){
     $('.menu_btn').on('click',function(){
         $('.login_page_overflow').removeClass('active');
     })

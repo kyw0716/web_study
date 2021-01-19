@@ -1,7 +1,7 @@
 $(window).scroll(function () {
     h = $(document).scrollTop();
     if(h == 0 ){
-        $('nav').css('background-color','none').css('border-bottom','none');
+        $('nav').css('background-color','rgba(1,1,1,0)').css('border-bottom','none');
         $('.login_box').css('background-color','rgb(72, 72, 255)');
     }
 });

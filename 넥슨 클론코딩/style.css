@@ -1,0 +1,129 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 5300px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 1.5;
+    margin-bottom: 160px;
+}
+
+.logo_part {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 700px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.logo_part_login {
+    display: flex;
+}
+
+#header_login {
+    padding-left: 30px;
+}
+
+.ad_part_background {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    text-align: center;
+    z-index: -1;
+    background-color: red;
+    border-bottom: solid;
+}
+
+body > header > div.ad_part_background > div > table {
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    height: 80px;
+    border: solid;
+    border-bottom: none;
+    border-collapse: collapse;
+}
+
+body > header > div.ad_part_background > div > table > tbody > tr > td {
+    border: solid;
+    border-bottom: none;
+    background-color: rgb(199, 199, 199);
+}
+
+main {
+    flex: 13;
+}
+
+.recommand_up {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+}
+
+.rup_left {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.rup_right {
+    display: flex;
+}
+
+.rup_right_item {
+    padding-left: 30px;
+}
+
+.recommand_login_container {
+    display: flex;
+}
+
+.recommand_container {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 15px;
+}
+
+body > main > div.recommand_login_container > div.recommand_container > table {
+    width: 100%;
+    height: 305px;
+    border-spacing: 6px 0px;
+}
+
+body > main > div.recommand_login_container > div.recommand_container > table > tbody > tr > td {
+    border: solid;
+}
+
+.login_container {
+    height: 300px;
+    width: 35%;
+    border: solid;
+    margin-right: 10%;
+}
+
+
+
+footer {
+    flex: 1;
+}
