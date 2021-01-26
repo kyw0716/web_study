@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+nav {
+    height: 62px;
+    width: 100%;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+#menu-space {
+    width: 400px;
+    position: absolute;
+    left: -400px;
+    z-index: 100;
+    transition: 1s;
+    background-color: white;
+    height: 100vh;
+    top: 0;
+}
+
+.menubtn {
+    padding-left: 11px;
+}
+
+.fa-times {
+    font-size: 25px;
+    margin-top: 18px;
+    margin-left: 11px;
+}
+
+#logo {
+    position: absolute;
+    left: 47%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Potta One', cursive;;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    padding-right: 30px;
+}
+
+#PC {
+    display: flex;
+    align-items: center;
+}
+
+#PC-left {
+    font-size: 17px;
+}
+
+#PC-right {
+    padding-left: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color: grey;
+}
+
+#sign {
+    color: rgb(139, 139, 139);
+    font-weight: bold;
+}
+
+#sign:hover {
+    color: rgb(85, 85, 255);
+    transition: 0.5s;
+}
+
+#login-btn {
+    border: 2px solid black;
+    padding: 6px 18px;
+    margin-right: 20px;
+    border-radius: 28px;
+    font-weight: bold;
+}
+
+#login-btn:hover {
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+main {
+    height: 855px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+header {
+    width: 440px;
+    font-size: 25px;
+    height: 139px;
+    line-height: 232px;
+}
+
+#main-box {
+    height: 696px;
+    width: 440px;
+    border: solid;
+}
+
+footer {
+    height: 88px;
+}
